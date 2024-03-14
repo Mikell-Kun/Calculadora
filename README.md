@@ -10,12 +10,12 @@ no.control: 20491199
 - sin embargo, querySelectorAll() nos ayuda a retornar a todos los elementos que conforman el tipo de selector, en este caso todas aquellas que se involucren con el comando button.
 ## 3. Que hace buttonText = button.textContent; ?
 - nos permite almacenar el contenido del texto por parte de las etiquetas button y almacenarlo en una variable.
-## Que hace y como funciona buttons.forEach((button) => { ...} ?
+## 4. Que hace y como funciona buttons.forEach((button) => { ...} ?
 - La expresión buttons.forEach((button) => { ... }) se define como un ciclo que evalua una coleccion de elementos mediante un arreglo.
 - esta aplicado es por parte del foreach y se aplica a un array de botones.
 - buttons es el arreglo que contiene los elementos del boton representando la etiqueta en el documento.
 - (button) => { ... } nos indica que mediante el parámetro button representara cada elemento del array buttons. el comportamiento que se ejecutará en cada iteración del bucle forEach para cada elemento del array es por parte de su condicion =>.
-## Que hace y como funciona button.addEventListener("click", () => { } )
+## 5. Que hace y como funciona button.addEventListener("click", () => { } )
 - La expresión button.addEventListener("click", () => { }) realiza un "escuchador de eventos" para el acceso de los botones al momento de interactuar con ellos mediante un click:
 - .addEventListener considera dos argumentos:
 - "click": Este es el tipo de evento al que se está escuchando. En este caso, estamos escuchando el evento de clic del ratón en el botón.
